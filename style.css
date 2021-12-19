@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.flextop{
+    display: flex;
+    align-items: center;
+}
+.top{
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+}
+.profile{
+    width: 40%;
+    justify-content: space-evenly;
+}
+.profile :nth-child(3){
+    font-weight: bold;
+}
+button{
+    background-color: #14A2B8;
+    color: white;
+    width: 6em;
+    height: 2em;
+}
+.main{
+    width: 1000px;
+    margin: 0 auto;
+    height: 1500px;
+    /* border: 2px solid gray; */
+    align-content: top;
+}
+.flexmain{
+    display: flex;
+    margin-top: 40px;
+}
+.col-3{
+    flex: 3;
+    margin-right: 20px;
+    /* background: green;
+    height: 700px; */
+}
+.col-2{
+    flex: 2;
+    /* background: indigo;
+    height: 500px; */
+}
+.user-card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.card-body {
+    padding: 20px;
+    margin-top: -15px;
+}
+
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+}
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 150px;
+    padding: 5px;
+    margin-top: 45px;
+    margin-left: 30px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
+.connect{
+    border:2px solid black;
+    background-color: white;
+}
+.connect-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000000;
+    color: white;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.connect-header p {
+    font-size: 1.5em;
+}
+.number2{
+    border-radius: 50%;
+    background: grey;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    margin-right: 20px;
+    margin-left: 15px;
+    text-align: center;
+}
+.todd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.picandname{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.picandname h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.smallicon{
+    border-radius: 50%;
+    background-color: black;
+    height: 45px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.checkpic{
+    color: white;
+    height: 35px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.checkbox{
+    margin-right: 15px;
+}
+.phil{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.your{
+    border:2px solid black;
+    background-color: white;
+    margin-top: 20px;
+}
+.your-header {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: #000000;
+    color: white;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.your-header p {
+    font-size: 1.5em;
+}
+.number500{
+    border-radius: 50%;
+    background: grey;
+    height: 30px;
+    width: 60px;
+    padding: 5px;
+    margin-right: 20px;
+    text-align: center;
+}
+.viewmore{
+    border-top: 2px solid black;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+.education{
+    border: 2px solid black;
+    background-color: white;
+}
+.education-header {
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    background-color: #000000;
+    color: white;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.education-header p{
+    font-size: 1.5em;
+    padding: 20px;
+}
+.education-body {
+    padding: 20px;
+    margin-top: -15px;
+}
+
+.education-body h1, 
+.education-body h2,
+.education-body h3,
+.education-body p {
+    margin: 20px 0px;
+}
